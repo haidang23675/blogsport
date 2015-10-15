@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://xenangchaua.com/' target='_blank'><img src='//c2.staticflickr.com/6/5709/22193755375_094c6aa10d_z.jpg' width='500px'/></a><br><a href='http://xenangchaua.com/xe-nang-ban-tu-dong-323500s.html'>Xe nâng bán tự động</a>. Xe nâng hàng nhập khẩu các loại. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://xenangchaua.com/' target='_blank'><img src='//c2.staticflickr.com/6/5709/22193755375_094c6aa10d_z.jpg' width='500px'/></a><a href='http://xenangchaua.com/xe-nang-ban-tu-dong-323500s.html'>Xe nâng bán tự động</a>. Xe nâng hàng nhập khẩu các loại. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
